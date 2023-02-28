@@ -1,3 +1,4 @@
 SELECT CONCAT(first_name, ' ', last_name) AS full_name,
-       CONCAT(address, ', ', city, ', ', state_province) AS location
+       CONCAT(city, '-', state_province, ',', ' ', address) AS location
 FROM employees;
+
